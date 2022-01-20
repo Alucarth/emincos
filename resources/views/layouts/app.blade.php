@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="{{ URL::to('/') }}/images/LOGO.jpg" />
-  <title>SOCIEDAD SAN JOSE</title>
+  <title>EMINCOSS</title>
 
   <!-- Bulma is included -->
   <link href="{{ asset('css/main.css') }}" rel="stylesheet">
@@ -39,7 +39,7 @@
             <div class="is-user-avatar">
               <img src="https://avatars.dicebear.com/v2/initials/john-doe.svg" alt="John Doe">
             </div>
-            <div class="is-user-name"><span>SAN JOSE</span></div>
+            <div class="is-user-name"><span>EMINCOSS</span></div>
             <span class="icon"><i class="mdi mdi-chevron-down"></i></span>
           </a>
           <div class="navbar-dropdown">
@@ -77,7 +77,7 @@
   <aside class="aside is-placed-left is-expanded">
     <div class="aside-tools">
       <div class="aside-tools-label">
-        <span><b>SAN JOSE</b> TECNICO</span>
+        <span><b>EMINCOSS</b></span>
       </div>
     </div>
     <div class="menu is-menu-main">
@@ -93,50 +93,12 @@
       <p class="menu-label">MENU</p>
       <ul class="menu-list">
         <li>
-          <a href="{{url('program')}}" class="has-icon">
+          <a href="{{url('producciones')}}" class="has-icon">
             <span class="icon has-update-mark"><i class="fas fa-box"></i></span>
-            <span class="menu-item-label">Programas</span>
+            <span class="menu-item-label">Produccion</span>
           </a>
         </li>
-        <li>
-          <a href="{{url('innaj')}}" class="has-icon">
-            <span class="icon "><i class="fas fa-child"></i></span>
-            <span class="menu-item-label">INNAJ</span>
-          </a>
-        </li>
-        <li>
-          <a href="forms.html" class="has-icon">
-            <span class="icon"><i class="mdi mdi-square-edit-outline"></i></span>
-            <span class="menu-item-label">Forms</span>
-          </a>
-        </li>
-        <li>
-          <a href="profile.html" class="has-icon">
-            <span class="icon"><i class="mdi mdi-account-circle"></i></span>
-            <span class="menu-item-label">Profile</span>
-          </a>
-        </li>
-        <li>
-          <a class="has-icon has-dropdown-icon">
-            <span class="icon"><i class="mdi mdi-view-list"></i></span>
-            <span class="menu-item-label">Submenus</span>
-            <div class="dropdown-icon">
-              <span class="icon"><i class="mdi mdi-plus"></i></span>
-            </div>
-          </a>
-          <ul>
-            <li>
-              <a href="#void">
-                <span>Sub-item One</span>
-              </a>
-            </li>
-            <li>
-              <a href="#void">
-                <span>Sub-item Two</span>
-              </a>
-            </li>
-          </ul>
-        </li>
+       
       </ul>
       {{-- <p class="menu-label">About</p>
       <ul class="menu-list">
@@ -225,9 +187,7 @@
       
     </div>
   </footer> --}}
-  <figure class="image">
-        <img  width="2000" height="500" align="center"src="{{ URL::to('/') }}/images/pie.png">
-      </figure>
+  
 </div>
 
 <div id="sample-modal" class="modal">

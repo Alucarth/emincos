@@ -18,6 +18,7 @@ class CreateProductionsTable extends Migration
             $table->string('sigla');
             $table->string('area');
             $table->string('empresa');
+            $table->date('fecha');
             $table->timestamps();
         });
     }
